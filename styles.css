@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Pompiere';
+    src: url('Pompiere-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Pompiere';
+    background-color: #6F777C;
+    overflow-x: hidden;
+}
+
+#Home_section {
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 20rem;
+}
+
+#About_section {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#Skills_section {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#Project_section {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#Contact_section {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 4rem;
+}
+
+#resume_btn {
+    font-family: 'Pompiere';
+    color: #fff;
+    background-color: #020F18;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 1.5rem;
+    border-radius: 25px;
+}
+
+#nav_bar {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.74), 0 6px 20px 0 rgba(255, 255, 255, 0.74);
+    border-radius: 15px;
+}
+
+nav {
+    text-align: center;
+    background-color: #020F18;
+    color: #fff;
+    border-radius: 15px;
+    padding: 1.0rem;
+}
+
+nav ul li {
+    font-size: 2.0rem;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 8rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #B2FFA3;
+    text-shadow: 4px 4px 4px #26BF07;
+}
+
+img {
+    height: auto;
+    width: 110%;
+}
